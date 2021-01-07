@@ -1,4 +1,4 @@
-# srobo-stream-countdown
+# stream-countdown
 
 Countdown page to be shown prior to livestreams starting
 
