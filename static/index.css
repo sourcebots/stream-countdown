@@ -1,0 +1,30 @@
+header {
+    height: 50vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header img {
+    width: 100%;
+    padding: 0 5%;
+}
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height: 50vh;
+}
+
+main h1 {
+    margin: 0;
+    font-size: 10rem;
+    color: #de6400;
+}
+
+main h1#countdown {
+    font-family: 'DSEG7-Classic';
+}
