@@ -10,8 +10,7 @@ function updateCountdown(target) {
     if (duration.valueOf() <= 0) {
         showMessage("Starting soon!");
     } else {
-        const format = Math.floor(duration.as("seconds")) % 2 == 0 ? "hh:mm:ss" : "hh mm ss";
-        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = duration.toFormat(format);
+        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = duration.toFormat("hh:mm:ss");
     }
 }
 
