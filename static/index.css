@@ -4,11 +4,14 @@ header {
     display:flex;
     justify-content:center;
     align-items:center;
+
+    background-color: #4b35b3;
+    padding: 5%;
 }
 
 header img {
     width: 100%;
-    padding: 0 5%;
+    max-height: 100%;
 }
 
 main {
@@ -22,7 +25,7 @@ main {
 main h1 {
     margin: 0;
     font-size: 10rem;
-    color: #de6400;
+    color: black;
 }
 
 main h1#countdown {
